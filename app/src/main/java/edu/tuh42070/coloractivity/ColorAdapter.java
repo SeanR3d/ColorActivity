@@ -46,7 +46,7 @@ class ColorAdapter extends BaseAdapter {
 
         // Change the default, "Select a color", color value to white
         if (position == 0)
-            colorValue = "TRANSPARENT";
+            colorValue = "lightgrey";
         else
             colorValue = this.colors[position];
         // Change the black view's text to light grey for visibility

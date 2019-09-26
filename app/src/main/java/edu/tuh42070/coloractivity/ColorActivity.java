@@ -25,10 +25,7 @@ public class ColorActivity extends AppCompatActivity {
 
         // Obtain spinner
         Spinner colorSpinner = findViewById(R.id.spinner);
-        colorSpinner.setBackgroundColor(Color.DKGRAY);
-        findViewById(R.id.layout).setBackgroundColor(Color.WHITE);
         colorSpinner.setAdapter(colorAdapter);
-
 
         colorSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
@@ -49,7 +46,6 @@ public class ColorActivity extends AppCompatActivity {
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-                findViewById(R.id.layout).setBackgroundColor(Color.WHITE);
             }
         });
 

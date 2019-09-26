@@ -34,6 +34,7 @@ public class ColorActivity extends AppCompatActivity {
 
                 //Change textview to white
                 view.setBackgroundColor(Color.WHITE);
+                ((TextView) view).setTextColor(Color.BLACK);
 
                 //set background to color
                 ConstraintLayout layout = findViewById(R.id.layout);
